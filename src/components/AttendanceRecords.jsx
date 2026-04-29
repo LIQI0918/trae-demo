@@ -11,7 +11,6 @@ function AttendanceRecords({ attendanceRecords, employees }) {
       case 'normal': return '正常'
       case 'late': return '迟到'
       case 'early': return '早退'
-      case 'disabled': return '已禁用'
       default: return status
     }
   }
